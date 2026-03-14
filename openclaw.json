@@ -71,7 +71,7 @@
   "gateway": {
     "port": 18789,
     "mode": "local",
-    "bind": "loopback",
+    "bind": "lan",
     "auth": {
       "mode": "token",
       "token": "e810518a5b3918f4123cf58b3ae7e28a4f6236cf9579b735"
@@ -89,6 +89,9 @@
         "contacts.add",
         "reminders.add"
       ]
+    },
+    "controlUi": {
+      "dangerouslyAllowHostHeaderOriginFallback": true
     }
   },
   "plugins": {
