@@ -39,7 +39,7 @@
   },
   "agents": {
     "defaults": {
-      "model": "haihub/DeepSeek-V3-0324",
+      "model": "haihub/Kimi-K2-Instruct",
       "workspace": "/home/ericksun/.openclaw/workspace",
       "compaction": {
         "mode": "safeguard"
