@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "847597ad-5acc-4378-aefa-3d3ceab8040d",
-    "updatedAt": 1773548746442,
+    "updatedAt": 1773548962407,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -162,11 +162,11 @@
       ],
       "version": 0
     },
-    "modelProvider": "deepseek",
-    "model": "deepseek-chat",
+    "modelProvider": "haihub",
+    "model": "Qwen3-235B-A22B",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1773548744639,
+      "generatedAt": 1773548942844,
       "sessionId": "847597ad-5acc-4378-aefa-3d3ceab8040d",
       "sessionKey": "agent:main:main",
       "provider": "deepseek",
@@ -186,9 +186,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 31821,
+        "chars": 32402,
         "projectContextChars": 13610,
-        "nonProjectContextChars": 18211
+        "nonProjectContextChars": 18792
       },
       "injectedWorkspaceFiles": [
         {
@@ -530,13 +530,13 @@
         ]
       }
     },
-    "cacheRead": 21824,
+    "cacheRead": 22208,
     "cacheWrite": 0,
     "totalTokensFresh": true,
     "contextTokens": 200000,
-    "inputTokens": 165,
+    "inputTokens": 122,
     "outputTokens": 13,
-    "totalTokens": 21989
+    "totalTokens": 22330
   },
   "agent:main:feishu:direct:ou_3bf1017b7251bb62e96753b4c35c02ce": {
     "sessionId": "26574fd3-5842-4f3a-a3e8-dfd6978f52b1",
@@ -698,8 +698,8 @@
       ],
       "version": 0
     },
-    "modelProvider": "deepseek",
-    "model": "deepseek-chat",
+    "modelProvider": "haihub",
+    "model": "Qwen3-235B-A22B",
     "systemPromptReport": {
       "source": "run",
       "generatedAt": 1772349969953,

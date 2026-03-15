@@ -54,7 +54,7 @@
   },
   "agents": {
     "defaults": {
-      "model": "deepseek/deepseek-chat",
+      "model": "haihub/Qwen3-235B-A22B",
       "workspace": "/home/ericksun/.openclaw/workspace",
       "compaction": {
         "mode": "safeguard"
