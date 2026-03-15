@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "847f9bc1-c6e0-4f18-9489-4b0a206871bd",
-    "updatedAt": 1773561000012,
+    "updatedAt": 1773561600008,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -170,7 +170,7 @@
     "model": "Qwen3-235B-A22B",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1773560400051,
+      "generatedAt": 1773561000060,
       "sessionId": "847f9bc1-c6e0-4f18-9489-4b0a206871bd",
       "sessionKey": "agent:main:main",
       "provider": "haihub",
@@ -520,9 +520,9 @@
     "cacheWrite": 0,
     "totalTokensFresh": true,
     "contextTokens": 200000,
-    "inputTokens": 54622,
-    "outputTokens": 899,
-    "totalTokens": 27806,
+    "inputTokens": 56091,
+    "outputTokens": 744,
+    "totalTokens": 28339,
     "lastTo": "heartbeat"
   },
   "agent:main:feishu:direct:ou_3bf1017b7251bb62e96753b4c35c02ce": {
