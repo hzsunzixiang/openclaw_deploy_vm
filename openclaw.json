@@ -34,12 +34,27 @@
             "name": "Kimi-K2-Instruct"
           }
         ]
+      },
+      "deepseek": {
+        "baseUrl": "https://api.deepseek.com/v1",
+        "apiKey": "sk-7f6ea0fd4a704a40bb8401529c88ba3a",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-chat",
+            "name": "DeepSeek-V3"
+          },
+          {
+            "id": "deepseek-reasoner",
+            "name": "DeepSeek-R1"
+          }
+        ]
       }
     }
   },
   "agents": {
     "defaults": {
-      "model": "haihub/Kimi-K2-Instruct",
+      "model": "deepseek/deepseek-chat",
       "workspace": "/home/ericksun/.openclaw/workspace",
       "compaction": {
         "mode": "safeguard"
