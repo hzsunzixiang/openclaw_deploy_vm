@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.26",
+    "lastTouchedAt": "2026-03-14T13:37:59.032Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-28T09:11:42.642Z",
+    "lastRunVersion": "2026.2.26",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "haihub": {
+        "baseUrl": "http://api.haihub.cn/v1",
+        "apiKey": "sk-322cac2a-dd13-45a8-b897-c9dff3280e70",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "DeepSeek-V3-0324",
+            "name": "DeepSeek-V3-0324"
+          },
+          {
+            "id": "DeepSeek-V3.1",
+            "name": "DeepSeek-V3.1"
+          },
+          {
+            "id": "Qwen3-235B-A22B",
+            "name": "Qwen3-235B-A22B"
+          },
+          {
+            "id": "Kimi-K2-Instruct",
+            "name": "Kimi-K2-Instruct"
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "haihub/DeepSeek-V3-0324",
+      "workspace": "/home/ericksun/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "channels": {
+    "feishu": {
+      "appId": "cli_a91a1fa63ab89cee",
+      "appSecret": "qqMqFtcF3OooymOo6unyzfgZhG8mPjFF"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "lan",
+    "auth": {
+      "mode": "token",
+      "token": "e810518a5b3918f4123cf58b3ae7e28a4f6236cf9579b735"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    },
+    "controlUi": {
+      "dangerouslyAllowHostHeaderOriginFallback": true,
+      "allowInsecureAuth": true
+    },
+    "https": {
+      "enabled": true,
+      "certFile": "/home/ericksun/.openclaw/ssl/server.crt",
+      "keyFile": "/home/ericksun/.openclaw/ssl/server.key"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "feishu": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -17,6 +17,9 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## Event Listeners
+- systemEvent: "[自动提交] 检测到目录变化" → exec `/home/ericksun/.openclaw/check_and_commit.sh`
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:

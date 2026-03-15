@@ -1,4 +1,74 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "6eadadd4-eafc-4653-9aad-38930408f846",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "每日午餐提醒",
+      "enabled": true,
+      "createdAtMs": 1773549114560,
+      "updatedAtMs": 1773549114560,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * *",
+        "tz": "Asia/Hong_Kong"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "记得吃饭！"
+      },
+      "state": {
+        "nextRunAtMs": 1773633600000
+      }
+    },
+    {
+      "id": "b95e2d82-d5e7-4981-9054-af336c0adf98",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "教学怪物活动提醒",
+      "enabled": true,
+      "createdAtMs": 1773557338345,
+      "updatedAtMs": 1773557338345,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * *",
+        "tz": "Asia/Hong_Kong"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "教学怪物活动即将开始！"
+      },
+      "state": {
+        "nextRunAtMs": 1773640800000
+      }
+    },
+    {
+      "id": "1258f704-6ab3-469a-8eb1-50744470d4e3",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "监控并提交目录变更",
+      "enabled": true,
+      "createdAtMs": 1773559941753,
+      "updatedAtMs": 1773559941753,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/10 * * * *",
+        "tz": "Asia/Hong_Kong"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "[自动提交] 检测到目录变化，正在执行GitHub提交..."
+      },
+      "state": {
+        "nextRunAtMs": 1773560400000
+      }
+    }
+  ]
 }

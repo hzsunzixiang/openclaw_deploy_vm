@@ -1,5 +1,10 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 检查项模板
+- [ ] 邮箱未读邮件统计
+- [ ] 当日日历事件提醒
+- [ ] 系统资源使用监控
+- [ ] GitHub项目Issue追踪
+- [ ] 天气预警推送
 
-# Add tasks below when you want the agent to check something periodically.
+> 已初始化heartbeat模板，可通过勾选任务前的[ ]标记完成每日检查。需要添加特定检查项或设置自动化检测逻辑吗？

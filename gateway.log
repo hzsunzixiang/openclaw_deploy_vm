@@ -1,0 +1,42 @@
+2026-03-15T12:20:43.667+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-15T12:20:43.668+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-03-15T12:20:43.669+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-03-15T12:20:43.670+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-03-15T12:20:43.671+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-03-15T12:20:43.720+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-15T12:20:43.721+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-03-15T12:20:43.721+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-03-15T12:20:43.722+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-03-15T12:20:43.723+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-03-15T12:20:43.747+08:00 [canvas] host mounted at http://0.0.0.0:18789/__openclaw__/canvas/ (root /home/ericksun/.openclaw/canvas)
+2026-03-15T12:20:43.748+08:00 [gateway] ⚠️  Gateway is binding to a non-loopback address. Ensure authentication is configured before exposing to public networks.
+2026-03-15T12:20:43.748+08:00 [gateway] ⚠️  gateway.controlUi.dangerouslyAllowHostHeaderOriginFallback=true is enabled. Host-header origin fallback weakens origin checks and should only be used as break-glass.
+2026-03-15T12:20:43.790+08:00 [heartbeat] started
+2026-03-15T12:20:43.793+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-15T12:20:43.796+08:00 [gateway] agent model: deepseek/deepseek-chat
+2026-03-15T12:20:43.797+08:00 [gateway] listening on ws://0.0.0.0:18789 (PID 104548)
+2026-03-15T12:20:43.798+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-15.log
+2026-03-15T12:20:43.799+08:00 [gateway] security warning: dangerous config flags enabled: gateway.controlUi.allowInsecureAuth=true, gateway.controlUi.dangerouslyAllowHostHeaderOriginFallback=true. Run `openclaw security audit`.
+2026-03-15T12:20:43.811+08:00 [info]: [ 'client ready' ]
+2026-03-15T12:20:43.851+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-15T12:20:43.859+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-03-15T12:20:44.133+08:00 [feishu] feishu[default]: bot open_id resolved: ou_86bcc12adaf56ddfa52a1024c5fcea3b
+2026-03-15T12:20:44.135+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-15T12:20:44.137+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-03-15T12:20:44.138+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-15T12:20:44.141+08:00 [feishu] feishu[default]: WebSocket client started
+2026-03-15T12:20:44.341+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-15T12:20:45.314+08:00 [gateway] signal SIGTERM received
+2026-03-15T12:20:45.315+08:00 [gateway] received SIGTERM; shutting down
+2026-03-15T12:20:45.330+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-03-15T12:20:45.334+08:00 [gmail-watcher] gmail watcher stopped
