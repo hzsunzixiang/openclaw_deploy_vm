@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "847f9bc1-c6e0-4f18-9489-4b0a206871bd",
-    "updatedAt": 1773560400018,
+    "updatedAt": 1773561000012,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -170,7 +170,7 @@
     "model": "Qwen3-235B-A22B",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1773560089941,
+      "generatedAt": 1773560400051,
       "sessionId": "847f9bc1-c6e0-4f18-9489-4b0a206871bd",
       "sessionKey": "agent:main:main",
       "provider": "haihub",
@@ -190,9 +190,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 32402,
+        "chars": 31229,
         "projectContextChars": 13610,
-        "nonProjectContextChars": 18792
+        "nonProjectContextChars": 17619
       },
       "injectedWorkspaceFiles": [
         {
@@ -306,8 +306,8 @@
         ]
       },
       "tools": {
-        "listChars": 3918,
-        "schemaChars": 27090,
+        "listChars": 3458,
+        "schemaChars": 24115,
         "entries": [
           {
             "name": "read",
@@ -352,21 +352,9 @@
             "propertiesCount": 18
           },
           {
-            "name": "nodes",
-            "summaryChars": 122,
-            "schemaChars": 1800,
-            "propertiesCount": 37
-          },
-          {
-            "name": "cron",
-            "summaryChars": 2689,
-            "schemaChars": 690,
-            "propertiesCount": 13
-          },
-          {
             "name": "message",
             "summaryChars": 89,
-            "schemaChars": 4860,
+            "schemaChars": 4872,
             "propertiesCount": 91
           },
           {
@@ -374,12 +362,6 @@
             "summaryChars": 152,
             "schemaChars": 223,
             "propertiesCount": 2
-          },
-          {
-            "name": "gateway",
-            "summaryChars": 464,
-            "schemaChars": 497,
-            "propertiesCount": 12
           },
           {
             "name": "agents_list",
@@ -538,9 +520,9 @@
     "cacheWrite": 0,
     "totalTokensFresh": true,
     "contextTokens": 200000,
-    "inputTokens": 59577,
-    "outputTokens": 1180,
-    "totalTokens": 30119,
+    "inputTokens": 54622,
+    "outputTokens": 899,
+    "totalTokens": 27806,
     "lastTo": "heartbeat"
   },
   "agent:main:feishu:direct:ou_3bf1017b7251bb62e96753b4c35c02ce": {

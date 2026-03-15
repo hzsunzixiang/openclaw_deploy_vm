@@ -54,7 +54,7 @@
       "name": "监控并提交目录变更",
       "enabled": true,
       "createdAtMs": 1773559941753,
-      "updatedAtMs": 1773559941753,
+      "updatedAtMs": 1773560421102,
       "schedule": {
         "kind": "cron",
         "expr": "*/10 * * * *",
@@ -67,8 +67,14 @@
         "text": "[自动提交] 检测到目录变化，正在执行GitHub提交..."
       },
       "state": {
-        "nextRunAtMs": 1773560400000,
-        "runningAtMs": 1773560400001
+        "nextRunAtMs": 1773561000000,
+        "lastRunAtMs": 1773560400006,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 21096,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "runningAtMs": 1773561000001
       }
     }
   ]
